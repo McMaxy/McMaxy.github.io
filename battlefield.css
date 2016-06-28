@@ -1,0 +1,86 @@
+#all{
+	font-family: arial;
+}
+#all p {
+	font-size:150%;
+}
+section a{
+	color:white;
+	text-decoration:none;
+}
+section a:hover{
+	color:#e7781f;
+}
+header{
+	border-radius: 5px;
+	text-align: center;
+    background: rgba(40,40,40,0.5);
+	width:980px;
+	margin: 10px auto;
+}
+header img{
+	outline:0px;
+	background:url(b4.png);
+	border:0px;
+}
+header img:hover{
+	background:url(b42.png);
+	width:600px;
+	height:110px;
+}
+body{
+	background:url("http://i.ytimg.com/vi/e7l-SBukdX4/maxresdefault.jpg") no-repeat center top fixed;
+	padding:0;
+	margin:0;
+	overflow-y: scroll;
+}
+section{
+	margin: 10px auto;
+	padding:10px;
+	border-radius:5px;
+	color:white;
+	width:960px;
+    background: rgba(40,40,40,0.5);
+	text-align:center;
+}
+footer{
+	float:bottom;
+	bottom:0px;
+	text-align:center;
+	margin: 10px auto;
+	padding:10px;
+	border-radius:5px;
+	color:white;
+	width:960px;
+    background: rgba(40,40,40,0.5);
+}
+nav{
+    background: rgba(40,40,40,0.5);
+	width: 980px;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align:center;
+}
+ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position: relative;
+}
+ul li{
+	display: inline-block;
+}
+ul li:hover{
+	background-color: black;
+    background: rgba(40,40,40,0.5);
+}
+ul li a,visited{
+	color:white;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+}
+ul li a:hover{
+	color:#e7781f;
+	text-decoration:none;
+}
